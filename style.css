@@ -1,0 +1,79 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    height: 100%;
+}
+
+.left-container {
+    width: 40%;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right-container {
+    width: 60%;
+    background-color:white ; /* Example background color */
+}
+.logo {
+    width: 20vh; /* Adjust the width to your desired size */
+    height: 20vh; /* Automatically adjust the height to maintain the aspect ratio */
+    
+    color:white;
+}
+.logo-container{
+    position: absolute;
+    display:flex;  
+    align-items: center;
+    background-color: rgba(27, 20, 20, 0.525);
+    width:100%;
+    justify-content: center;
+    top:10vh; 
+}  
+.logo-container h1 {
+    font-size: 10vh;
+    font-family: norse-bold;
+    color:white;
+    
+}
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px;
+    gap: 15px; /* Adjust the gap value as needed */
+}
+
+/* Style label and input elements within .input-pair as needed */
+.labelinput {
+    flex: 0 0 calc(50% - 7.5px); /* Calculate the width for two pairs with gap */
+    display: flex;
+    flex-direction: column;
+}
+
+.labelinput label {
+    font-size: 18px;
+    /* Additional label styles */
+}
+
+.labelinput input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* Additional input styles */
+}
+.form-container{
+    box-shadow:5px 10px 10px #f0f0f0 ; 
+    padding:50px;
+}
