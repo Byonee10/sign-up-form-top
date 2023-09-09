@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="main-container">
@@ -21,8 +22,8 @@
                 This is not a real online service! You know you need something
                 like this in your life to help you realize your deepest dreams.<br>
                 Sign up <em>now</em> to get started.
-                <br>
-                You <em>know</em> you want to.<br><br><br>
+                <br><br>
+                You <em>know</em> you want to.<br><br>
                 Let's do this!
             </h1></div>
             <div class="form-container">
@@ -30,7 +31,8 @@
                     <div class="input-group">
                         <div class = "labelinput">
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name">
+                            <input type="text" id="first-name"
+                            >
                         </div>
                         
                         <div class = "labelinput"> 
@@ -55,20 +57,21 @@
                     <div class="input-group">
                         <div class = "labelinput">
                             <label for="password">PASSWORD</label>
-                            <input type="password">
+                            <input type="password" id = "password">
                         </div>
                         <div class = "labelinput">
                             <label for="password-confirm">CONFIRM PASSWORD</label>
-                            <input type="password">
+                            <input type="password" id = "password-confirm">
+                            <span id= "message"></span>
                         </div>
                     </div>
     
                 </form>
             </div>
             <div class="lower-container">
-                <button type="button">Create Account</button>
+                <button id = "submitButton" type="button">Create Account</button>
                 <p>
-                    Already have an account?<a href="">Log in</a>
+                    Already have an account? <a href="">Log in</a>
                 </p>
                 
             </div>
