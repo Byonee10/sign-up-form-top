@@ -16,8 +16,8 @@ html, body {
     width: 40%;
     position:relative;
     display:flex;
+    align-items: flex-end;
     justify-content: center;
-    align-items: center;
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -113,4 +113,11 @@ html, body {
     
     box-shadow: 0 0 10px #719ECE;
       
+}
+.credits span{
+    color:white;
+    
+}
+.credits span a{
+    text-decoration: none;
 }
